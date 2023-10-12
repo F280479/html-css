@@ -1,0 +1,116 @@
+/* CSS Reset */
+/* Allows to easily manipulate the sizes and positioning elements*/
+/* * asterisk = Universal Selector */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Google Font*/
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+/*Navigation Bar*/
+/* 1 rem = 16px */
+
+nav {
+	padding: 0.8rem;
+	/*padding-top: 2rem;
+	padding-right: 10rem;*/
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo {
+/*	add space between ul and the nav element */
+	margin: 1.7rem;
+	display: inline;
+}
+
+
+/*intro section*/
+#intro {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#intro button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+.header {
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	margin-bottom: 1rem;
+}
+
+/*Succeed Info section*/
+
+#succeed-info h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info h2 {
+	margin-bottom: 2rem;
+}
+
+#succeed-info {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#succeed-info .card{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	min-height: 175px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+/*member1*/
+#pre-footer {
+	padding: 1rem;
+	color: white;
+	background-color: #002540;
+}
+/*member1 end*/
+
+#pre-footer .prefooter{
+	display: inline-grid;
+	padding-left: 10%;
+	width: 20%;
+}
+/*Member 2*/
+#pre-footer ,div #pre-header, div .pre-info{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+/*Member 2 end*/
+
+footer {
+	padding: 0.7rem;
+	text-align: center;
+}
+
+footer span {
+/* creates space between span tags and the footer border	*/
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
